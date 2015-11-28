@@ -1,4 +1,5 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
+gem "activerecord"
+gem "active_record_migrations"
+gem "sqlite3"
