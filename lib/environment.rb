@@ -1,7 +1,6 @@
 require 'active_record'
 require 'yaml'
-# Dir["./lib/*.rb"].each { |f| require f }
-# Dir["./app/**/*.rb"].each { |f| require f }
+Dir["./models/*.rb"].each { |f| require f }
 
 class Environment
   CONFIG = YAML::load(File.open('config/database.yml'))
